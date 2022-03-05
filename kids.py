@@ -2,6 +2,7 @@
 #each name has to be a variable
 # 3 has to be variable too
 # return the first sentence
+# ok
 mom = "jane"
 number = "3"
 kid1 = "kelly"
