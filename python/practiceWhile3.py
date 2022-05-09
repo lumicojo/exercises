@@ -1,4 +1,3 @@
-#Write a while loop that continually asks a user
 #  for a number between 50 and 100.
 while True:
     num = input("enter a number  between 50 to 100 \n")
@@ -16,3 +15,7 @@ while True:
 
         # the while loop should stop. (Hint: Use the break statement.)
         break
+
+
+
+    
