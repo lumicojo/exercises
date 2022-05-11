@@ -12,7 +12,7 @@ while true
         puts "too low!"
     #If the user types a number between 50 and 100, 
     else
-         num_int > 50 and num_int < 100
+         
 
         # the while loop should stop. (Hint: Use the break statement.)
         break
