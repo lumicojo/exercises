@@ -1,22 +1,22 @@
 puts "Enter some text: "
-text = gets.chomp
+user_input = gets.chomp
 
 puts "Enter words to redact: "
-redact = gets.chomp
+user_redact = gets.chomp
 
-words = text.split(" ")
-remove = redact.split(" ")
-words.each do |word|
+input_words = user_input.split(" ")
+redacted_words = user_redact.split(" ")
+input_words.each do |current_input_word|
   redacted = false
-  remove.each do |redact_word|
-    if word == redact_word
+  redacted_words.each do |current_redact_word|
+    if current_input_word == current_redact_word
       redacted = true
     end 
   end 
   if redacted
     print "REDACTED "
   else
-    print word + " "
+    print current_input_word + " "
   end       
 end 
 
