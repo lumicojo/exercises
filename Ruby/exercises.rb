@@ -8,14 +8,15 @@
 
 #If they guess wrong, ask the user again to guess an animal until they guess one in your list. 
 animals = ["cat", "snake", "wolf", "dog", "giraffe", "elephant." ]
-puts "guess a animal ."
-user_input = gets.chomp
-play = true
-while play
+lets_play = true
+while lets_play #true
+    puts "guess a animal ."
+    user_input = gets.chomp
     animals.each do |animal|
         if user_input == animal
-            puts "that's  an animal in my list"
-        play = false
+            puts "that's  an animal in my list" 
+            lets_play = false
+        
             break
         end
     end    
