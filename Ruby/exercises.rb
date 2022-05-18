@@ -14,7 +14,7 @@ while lets_play #true
     user_input = gets.chomp
     animals.each do |animal|
         if user_input == animal
-            puts "that's  an animal in my list" 
+            puts "that's  an animal in my list"     
             lets_play = false
         
             break
