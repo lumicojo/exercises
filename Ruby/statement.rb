@@ -1,5 +1,5 @@
 #“If the value of stock is less than 1 then print the ‘out of stock’ message, otherwise do nothing.”
-stock = 10
+stock = 0
 if stock < 1
     puts "Sorry we are out of stock!"
 elsif stock == 10
