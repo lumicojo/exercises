@@ -1,4 +1,0 @@
-inherit_from: .rubocop_todo.yml
-"prettier.singleQuote": false
-
-
