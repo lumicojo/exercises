@@ -11,3 +11,11 @@ until i == 51
   print i
   i += 1
 end
+
+
+x = gets.chomp.to_i
+until x < 0
+    puts x
+    x -= 1
+end 
+puts "finish"   
