@@ -1,6 +1,0 @@
-#print the third value of demo_array to the console.
-demo_array = [100, 200, 300, 400, 500]
-
-print demo_array[2] # Add your code here!
-
-
