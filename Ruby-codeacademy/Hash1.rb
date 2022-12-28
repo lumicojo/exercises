@@ -5,3 +5,4 @@ hash ={
 }
 my_hash = Hash.new
 puts hash # => {}
+end

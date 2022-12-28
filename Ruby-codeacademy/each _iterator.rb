@@ -4,7 +4,7 @@
 
 
 
-odds = [1,3,5,7,9]
-odds.each do |odd| 
-    print odd*2
-  end
+numbers = [18,33,5,7,9]
+multiplay_numbers = numbers.select{ |n| 2 * n == 0}
+puts multiplay_numbers
+end
